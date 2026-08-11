@@ -1,0 +1,46 @@
+body {
+  /*  background-color: darkblue;
+    background-image: url("https://img.magnific.com/premium-photo/abstract-neon-lights-background-with-smoke-fog-grunge-texture_324689-575.jpg?semt=ais_test_b&w=740&q=80");
+    background-repeat:no-repeat;
+    background-size:cover; */
+    background-image: linear-gradient(to bottom, darkblue, green, yellow, orange);
+    background-repeat:no-repeat;
+    background-position: top center;
+    font-family: Arial, sans-serif
+}
+
+.page-header {
+    background-image: linear-gradient(to right, indigo, blue,violet);
+    border-radius:16px;
+    text-align:center;
+    color:white;
+}
+
+.fact-card {
+    background-color:darkcyan;
+    border-radius: 12px;
+    text-align: center;
+    color: white;
+}
+
+.fact-card h2{
+    color:coral;
+}
+
+.star {
+    width: 60px;
+    height: 60px;
+    background-color: yellowgreen;
+    border-radius: 50%;
+    animation: twinkle 2s infinite alternate;
+}
+
+@keyframes twinkle{
+    from{ background-color:yellowgreen;}
+    to  { background-color:white;}
+}
+
+.footer-text{
+    text-align: center;
+    color: blueviolet;
+}
